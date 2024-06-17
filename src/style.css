@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: "Roboto", sans-serif;
+}
+.Header{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.divForShadow{
+   box-shadow: 0px 15px 10px -15px #8e8e8e;    
+}
+.MainSection{
+    background-color:#FAFAFA;
+    padding-top: 30px;
+    margin-top: -40px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.cardFlg{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    /* background-color: red; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: 0.2s linear all;
+}
+.cardFlg:hover{
+    transform: translateY(-20px);
+    transform: scale(1.03);
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.flagImg{
+    width: 265px;
+    height: 164px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.flagDefinition{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.countryName{
+    font-weight: 750;
+}
+.flugText{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    margin: 20px 0;
+}
+.textStyle{
+    font-weight: 700;
+}
